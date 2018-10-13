@@ -5,7 +5,7 @@ The completion of this module will result in you being able to monitor your Angu
 
 In this Lab you will learn to:
 
-* [Azure Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview/?WT.mc_id=workshop-github-js-team)
+* [Azure Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview/?WT.mc_id=workshop-github-jsteam)
     * Create an instance of Application Insights
     * Use SDK to track events in your Angular application 
     
@@ -57,5 +57,4 @@ this.router.events.subscribe((event: Event) => {
 
 
 ### Demo App Completed
-// TODO: add proper branch link in tacos-ui repo
-For reference, here is the demo app after completing everything from this module: [Demo with Application Insights]()
+For reference, here is the demo app after completing everything from this module: [Demo with Application Insights](https://github.com/Angular-Azure-Workshop/tacos-ui/tree/module02-finished)
