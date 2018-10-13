@@ -91,8 +91,20 @@ In this lab you will learn to:
 
 ## Enable CORS and Login Redirects
 
-1. 
-
+1. Go to your Functions App in the [Azure portal]() and open the **Platform features** tab.
+2. Click on the menu option **CORS**
+    ![image](https://user-images.githubusercontent.com/6265396/46900157-cfec6a00-ce6b-11e8-8fcc-e4ef0b78dd07.png)
+3. Enter URLs for both localhost development and the Angular application URL then click **Save**
+    - Example:
+        
+        ![image](https://user-images.githubusercontent.com/6265396/46900173-0fb35180-ce6c-11e8-8fa4-5872b7420c84.png)
+4. Close the CORS view and click **Authentication/Authorization**
+5. Enter the URLs for the root of your Angular application both on localhost and in Azure then click **Save**
+    - Example:
+    
+        ![image](https://user-images.githubusercontent.com/6265396/46900218-b3046680-ce6c-11e8-825c-baef24401858.png)
+        
+## Update Angular Application Environment Variables
 ### Demo App Completed
 // TODO: add proper branch link in tacos-ui repo
 For reference, here is the demo app after completing everything from this module: [Demo with Azure Authentication]()
