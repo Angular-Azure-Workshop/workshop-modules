@@ -1,4 +1,4 @@
-# First Module: Azure Storage and DevOps
+# Module 01: Azure Storage and DevOps
 Hosting an Angular application on Azure Blob Storage
 
 ---
