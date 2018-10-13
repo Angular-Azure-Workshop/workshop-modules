@@ -13,8 +13,8 @@ In this lab you will learn to:
     - Add environment values to our Angular application to connect to the Azure Function
     
 #### Other Docs for Reference:
-1. [Authentication and Authorization in Azure App Service (applies the same to Azure Functions)](https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-overview?WT.mc_id=workshop-github-jsteam)
-2. [Sign out of a session](https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-how-to?WT.mc_id=workshop-github-jsteam#sign-out-of-a-session)
+* [Authentication and Authorization in Azure App Service (applies the same to Azure Functions)](https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-overview?WT.mc_id=workshop-github-jsteam)
+* [Sign out of a session](https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-how-to?WT.mc_id=workshop-github-jsteam#sign-out-of-a-session)
     
 ## Azure Functions Authentication/Authorization
 1. Navigate to the [Azure Portal](https://portal.azure.com/?WT.mc_id=workshop-github-jsteam)
