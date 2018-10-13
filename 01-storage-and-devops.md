@@ -16,6 +16,9 @@ In this lab you will learn to:
     * Configure a new Release Pipeline to deploy files to Azure Storage
     
 To Learn more about Azure Storage checkout [Microsoft Learn path](https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/index/?WT.mc_id=workshop-github-jsteam )
+
+### Demo App Starting Point
+Here is the demo application in a state that's at a starting point to follow along with the steps in this module [Demo App Module 1 Start](https://github.com/Angular-Azure-Workshop/tacos-ui/tree/module01-start)
     
 ## Azure Storage
 
@@ -92,5 +95,4 @@ steps:
 1. Go back to *Builds* and Queue a new build
 
 ### Demo App Completed
-// TODO: add proper branch link in tacos-ui repo
-For reference, here is the demo app after completing everything from this module: [Demo with Azure Storage and DevOps]()
+For reference, here is the demo app after completing everything from this module: [Demo with Azure Storage and DevOps](https://github.com/Angular-Azure-Workshop/tacos-ui/tree/module01-finished)
