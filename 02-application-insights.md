@@ -1,5 +1,5 @@
 # Module 2: Application Insights
-Monitoring Angular applications using Application Insights
+The completion of this module will result in you monitoring your Angular application using Application Insights in Azure.
 
 ---
 
@@ -55,3 +55,7 @@ this.router.events.subscribe((event: Event) => {
 
 7. Continue experimenting by triggering exceptions in the Angular code and inspect them in the Browser failures tab. 
 
+
+### Demo App Completed
+// TODO: add proper branch link in tacos-ui repo
+For reference, here is the demo app after completing everything from this module: [Demo with Application Insights]()
