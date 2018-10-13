@@ -1,5 +1,5 @@
 # Module 1: Azure Storage and DevOps
-The completion of this module will result in you hosting an Angular application on Azure Blob Storage and deploying releases through Azure DevOps 
+The completion of this module will result in you hosting an Angular application on Azure Blob Storage and deploying releases through Azure DevOps.
 
 ---
 
@@ -90,3 +90,7 @@ steps:
     * Set *$web* for *Container Name*
 
 1. Go back to *Builds* and Queue a new build
+
+### Demo App Completed
+// TODO: add proper branch link in tacos-ui repo
+Here is the demo app after completing everything from this module: [Demo with Azure Storage and DevOps]()
