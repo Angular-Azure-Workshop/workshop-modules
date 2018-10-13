@@ -1,5 +1,5 @@
-# Module 2: Application Insights
-The completion of this module will result in you monitoring your Angular application using Application Insights in Azure.
+# Module 2: Application Insights in Angular
+The completion of this module will result in you being able to monitor your Angular application using Application Insights in Azure.
 
 ---
 
