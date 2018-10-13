@@ -73,21 +73,19 @@ In this lab you will learn to:
 19. Make sure **Allow Implicit Flow** is checked and enter the callback URL as an entry under **Redirect URLs** using the format below:
     - **Formatted Azure Function Url:** `[Your Azure Function Url]/.auth/login/microsoftaccount/callback`
     - E.g., https://tacofancy-api.azurewebsites.net/.auth/login/microsoftaccount/callback
-19. Add a **Logout URL** using the format below
-    - **Formatted Azure Function Url:** `[Your Azure Function Url]/.auth/logout
+20. Add a **Logout URL** using the format below
+    - **Formatted Azure Function Url:** `[Your Azure Function Url]/.auth/logout`
     - E.g., https://tacofancy-api.azurewebsites.net/.auth/logout
-20. Scroll to the bottom and click **Save**
+21. Scroll to the bottom and click **Save**
+    ![image](https://user-images.githubusercontent.com/6265396/46900114-f4941200-ce6a-11e8-8405-fbe4f1474874.png)
 
-![image](https://user-images.githubusercontent.com/6265396/46900114-f4941200-ce6a-11e8-8405-fbe4f1474874.png)
-
-21. In the **Azure Portal** on the **Microsoft Account Authentication Settings** page, enter the following values:
+22. In the **Azure Portal** on the **Microsoft Account Authentication Settings** page, enter the following values:
     - **Client Id:** [Your Microsoft Application Id]
     - **Client Secret:** [Your Microsoft Application Password]
-22. On the **Microsoft Account Authentication Settings** page, select **Ok**
+23. On the **Microsoft Account Authentication Settings** page, select **Ok**
+    ![Microsoft Auth Settings](https://user-images.githubusercontent.com/13558917/46318737-85ced300-c5a5-11e8-9095-44b1c0f226a8.png)
 
-![Microsoft Auth Settings](https://user-images.githubusercontent.com/13558917/46318737-85ced300-c5a5-11e8-9095-44b1c0f226a8.png)
-
-21. On the **Authentication / Authorization** page, select **Save**
+24. On the **Authentication / Authorization** page, select **Save**
 
 ![Save Auth](https://user-images.githubusercontent.com/13558917/46318736-85ced300-c5a5-11e8-9c36-42bf0ff6278e.png)
 
