@@ -21,9 +21,13 @@ In this lab you will learn to:
 2. On the Azure Portal, navigate to your Azure Functions App resource
 3. On the Azure Functions **Overview** tab, locate the Azure Function URL
     > We will use this URL later
-// TODO add image
+    
+    ![image](https://user-images.githubusercontent.com/6265396/46899925-13dd7000-ce68-11e8-8399-3e77c2f83f11.png)
 
 4. On the Azure Functions App **Platform features** page, towards the middle of the menu options, select **Authentication / Authorization**
+
+    ![image](https://user-images.githubusercontent.com/6265396/46899936-4f783a00-ce68-11e8-9c40-40df3b72e5c7.png)
+    
 5. On the **Authentication / Authorization** page, make the following selections:
     - **App Service Authentication**: On
     - **Action to take when request is not authenticated**: Log in with Microsoft Account
@@ -58,24 +62,28 @@ In this lab you will learn to:
 ![Generate new password](https://user-images.githubusercontent.com/13558917/46318740-86676980-c5a5-11e8-9132-3c6f6430c076.png)
 
 15. On the **New password generated** popup, copy the password and paste it in a text file on your local computer
-    - **Note:** We will use this password later, but you will be unable to access the password after clicking **Ok** and closing the popup
+    > We will use this password later, but you will not be able to access the password after clicking **Ok** and closing the popup. Be sure to save this somewhere safe temporarily
 16. On the **New password generated** popup, select **Ok**
 
 ![App Password](https://user-images.githubusercontent.com/13558917/46318931-2ae9ab80-c5a6-11e8-88c7-2c0bbabf8718.png)
 
-17. On the **Register applications** page, in **Home page URL**, locate the **Application Id**
+17. On the main application page, locate the **Application Id** and copy and save it somewhere temporarily
     > **Note:** We will use this Application Id later
-17. On the **Register applications** page, in **Home page URL**, paste the formatted App Service URL
-    - **Formatted App Service Url:** `[Your App Service Url]/.auth/login/microsoftaccount/callback`
+18. Click **Add platform** and choose **Web** when prompted
+19. Make sure **Allow Implicit Flow** is checked and enter the callback URL as an entry under **Redirect URLs** using the format below:
+    - **Formatted Azure Function Url:** `[Your Azure Function Url]/.auth/login/microsoftaccount/callback`
     - E.g., https://tacofancy-api.azurewebsites.net/.auth/login/microsoftaccount/callback
-18. On the **Register applications** page, click **Save**
+19. Add a **Logout URL** using the format below
+    - **Formatted Azure Function Url:** `[Your Azure Function Url]/.auth/logout
+    - E.g., https://tacofancy-api.azurewebsites.net/.auth/logout
+20. Scroll to the bottom and click **Save**
 
-![Register Application](https://user-images.githubusercontent.com/13558917/46318738-85ced300-c5a5-11e8-9eeb-57ea23c15c56.png)
+![image](https://user-images.githubusercontent.com/6265396/46900114-f4941200-ce6a-11e8-8405-fbe4f1474874.png)
 
-19. On the **Azure Portal** on the **Microsoft Account Authentication Settings** page, enter the following values:
+21. In the **Azure Portal** on the **Microsoft Account Authentication Settings** page, enter the following values:
     - **Client Id:** [Your Microsoft Application Id]
     - **Client Secret:** [Your Microsoft Application Password]
-20. On the **Microsoft Account Authentication Settings** page, select **Ok**
+22. On the **Microsoft Account Authentication Settings** page, select **Ok**
 
 ![Microsoft Auth Settings](https://user-images.githubusercontent.com/13558917/46318737-85ced300-c5a5-11e8-9095-44b1c0f226a8.png)
 
