@@ -1,5 +1,5 @@
 # Module 1: Azure Storage and DevOps
-Hosting an Angular application on Azure Blob Storage
+The completion of this module will result in you hosting an Angular application on Azure Blob Storage and deploying releases through Azure DevOps 
 
 ---
 
