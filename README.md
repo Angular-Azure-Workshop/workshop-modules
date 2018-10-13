@@ -7,3 +7,4 @@
 * [Module 4: Azure CosmosDB](/04-azure-cosmosdb.md)
 * [Module 5: Application Insights in Azure Functions](/05-api-monitoring.md)
 * [Module 6: Authentication in Azure](/06-authentication-in-azure.md)
+* [Module 7: Azure Security](/07-azure-security.md)
