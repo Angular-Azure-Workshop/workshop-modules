@@ -5,17 +5,17 @@ Hosting an Angular application on Azure Blob Storage
 
 In this lab you will learn to:
 
-* [Azure Storage](https://docs.microsoft.com/azure/storage/?WT.mc_id=workshop-github-js-team)
+* [Azure Storage](https://docs.microsoft.com/azure/storage/?WT.mc_id=workshop-github-jsteam)
     * Create a Storage Account using the Azure portal
     * Enable Static website hosting 
     * Deploy assets using the Storage extension in VS Code
 
-* [Azure Devops](https://docs.microsoft.com/azure/devops/user-guide/index/?WT.mc_id=workshop-github-js-team)
+* [Azure Devops](https://docs.microsoft.com/azure/devops/user-guide/index/?WT.mc_id=workshop-github-jsteam)
     * Create a new Devops project
     * Configure a new Build Pipeline for an Angular project
     * Configure a new Release Pipeline to deploy files to Azure Storage
     
-To Learn more about Azure Storage checkout [Microsoft Learn path](https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/index/?WT.mc_id=workshop-github-js-team )
+To Learn more about Azure Storage checkout [Microsoft Learn path](https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/index/?WT.mc_id=workshop-github-jsteam )
     
 ## Azure Storage
 
@@ -25,7 +25,7 @@ To Learn more about Azure Storage checkout [Microsoft Learn path](https://docs.m
 1. From the newly create Storage account Overview page, using the left hand side menu navigate to *Settings* -> *Static website* . Here, enable static website and add index.html in the *Index document name* input. 
 ![Enable Static Website](https://tacofancy.blob.core.windows.net/tutorial/EnableStaticWebsite.png)
 
-1. In Visual Studio Code, go to the extensions panel and install the Azure Storage extension. Alternatively, you can install it from the [marketplace](https://marketplace.visualstudio.com/items/?WT.mc_id=workshop-github-js-team&itemName=ms-azuretools.vscode-azurestorage)
+1. In Visual Studio Code, go to the extensions panel and install the Azure Storage extension. Alternatively, you can install it from the [marketplace](https://marketplace.visualstudio.com/items/?WT.mc_id=workshop-github-jsteam&itemName=ms-azuretools.vscode-azurestorage)
 
 1. **Fork** our app from https://github.com/Angular-Azure-Workshop/tacos-ui and switch to the *00-start* branch. Build for production by running `ng build --prod`
 
