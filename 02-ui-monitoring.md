@@ -9,7 +9,10 @@ In this Lab you will learn to:
     * Create an instance of Application Insights
     * Use SDK to track events in your Angular application 
     
-Learn more about Designing for efficiency and operations in this [Microsoft Learn module](https://docs.microsoft.com/en-us/learn/modules/design-for-efficiency-and-operations-in-azure/index/?WT.mc_id=workshop-github-js-team)
+Learn more about Designing for efficiency and operations in this [Microsoft Learn module](https://docs.microsoft.com/en-us/learn/modules/design-for-efficiency-and-operations-in-azure/index/?WT.mc_id=workshop-github-jsteam)
+
+### Demo App Starting Point
+Here is the demo application in a state that's at a starting point to follow along with the steps in this module [Demo App Module 2 Start](https://github.com/Angular-Azure-Workshop/tacos-ui/tree/module02-start)
 
 ## Azure Applications Insights
 
