@@ -18,7 +18,7 @@ npm i applicationinsights
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "user": "<database user>",
     "password": "<database primary password>",
-    "port": "10255"
+    "port": "10255",
     "APPINSIGHTS_INSTRUMENTATIONKEY":"<app insights key>"
   },
   "Host": {
