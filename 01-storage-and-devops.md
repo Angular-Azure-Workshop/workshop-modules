@@ -93,4 +93,4 @@ steps:
 
 ### Demo App Completed
 // TODO: add proper branch link in tacos-ui repo
-Here is the demo app after completing everything from this module: [Demo with Azure Storage and DevOps]()
+For reference, here is the demo app after completing everything from this module: [Demo with Azure Storage and DevOps]()
