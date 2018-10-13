@@ -1,5 +1,6 @@
 # Module 5: Application Insights in Azure Functions
 The completion of this module will result in you being able to monitor aspects of your Azure Functions app using Application Insights
+
 ---
 
 ## Monitor Serverless Endpoint
