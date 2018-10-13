@@ -9,7 +9,7 @@ The completion of this module will result in you creating an Azure Function that
 
 ## VS Code 
 
-1. Install VS Code Azure Functions extension from extensions panel or from the [marketplace]( https://marketplace.visualstudio.com/items/?WT.mc_id=workshop-github-js-team&itemName=ms-azuretools.vscode-azurefunctions)
+1. Install VS Code Azure Functions extension from extensions panel or from the [marketplace]( https://marketplace.visualstudio.com/items/?WT.mc_id=workshop-github-jsteam&itemName=ms-azuretools.vscode-azurefunctions)
 2. Go to the Azure panel and from the Azure Functions extension create a new function app and a new function of type HttpTrigger. Name it GetRecipes. 
 3. Run and debug locally 
 
