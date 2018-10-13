@@ -104,7 +104,22 @@ In this lab you will learn to:
     
         ![image](https://user-images.githubusercontent.com/6265396/46900218-b3046680-ce6c-11e8-825c-baef24401858.png)
         
-## Update Angular Application Environment Variables
+## Update Angular Application Environment Variables and Run
+
+1. In the Angular application go to the folder `src/environments/` and update the URLs in `environment.ts` with the proper URLs for your resources. These are used when you run the Angular application locally.
+    - Example:
+    
+        ![image](https://user-images.githubusercontent.com/6265396/46900273-7e44df00-ce6d-11e8-93fb-9e5022dc885e.png)
+        
+2. Do the same in `environment.prod.ts` but update the URLs with your Angular application URL running in Azure
+    - Example:
+    
+        ![image](https://user-images.githubusercontent.com/6265396/46900287-a9c7c980-ce6d-11e8-9b42-a88a3cf81fc8.png)
+        
+3. Open up your terminal and run the command `ng serve --ssl`
+4. Open your browser to [https://127.0.0.1:4200](https://127.0.0.1:4200)
+5. Click **Login** to begin the authentication flow and test everything is working as expected.
+
 ### Demo App Completed
 // TODO: add proper branch link in tacos-ui repo
 For reference, here is the demo app after completing everything from this module: [Demo with Azure Authentication]()
